@@ -5,25 +5,25 @@ module.exports = {
     /**
      * bot details and parameters
      */
-    botname: process.env.BotName || "Queen Anya Bot",
+    botname: process.env.BotName || "PRINCEONE",
     footer: process.env.Footer || "© Queen Anya Bot",
-    prefa: process.env.Prefix || "-",
+    prefa: process.env.Prefix || ".",
     themeemoji: process.env.ThemeEmoji || "🎐",
 
     /**
      * owner details and parameters
      */
-    ownername: process.env.Owner_Name || "Pika~Kun",
-    ownernumber: process.env.Owner_Number || "916900904828",
-    instagramId: process.env.Insta || "3.69_pika",
+    ownername: process.env.Owner_Name || "Princeone",
+    ownernumber: process.env.Owner_Number || "254793651678",
+    instagramId: process.env.Insta || "p1princeone",
 
     /**
      * other details and parameters
      */
-    author: process.env.Author || "@PikaBotz",
-    packname: process.env.PackName || "Queen Anya v2 MD",
+    author: process.env.Author || "@Prince",
+    packname: process.env.PackName || "princeone",
     socialLink: process.env.Web || "https://github.com/PikaBotz",
-    groupLink: process.env.GcLink || "https://chat.whatsapp.com/E490r0wSpSr89XkCWeGtnX",
+    groupLink: process.env.GcLink || "https://chat.whatsapp.com/CkxQ4aBJm4nCiLXCSlSyv9",
     warns: Number(process.env.Warn_Limits) || 3,
     cooldown: 5, // default cooldown time per command in seconds
     mongoUrl: process.env.MongoDB || "YOUR_MONGODB_URL",
